@@ -23,12 +23,13 @@
 .main-container {
 	display: flex;
 	justify-content: center;
-	width: 100;
+
 }
 
 .input-container, .list-container {
-	width: 600px;
+	width: 900px;
 	height: 100vh;
+	padding-top: 20px;
 	padding-left: 20px;
 	border: 2px solid gray; 
 	border-radius: 40px;
@@ -38,6 +39,7 @@
 .input-container h3, .list-container h3 {
 	text-align: center;
 	font-size: 30px;
+	padding-bottom: 20px;
 }
 
 #state, #zip {
