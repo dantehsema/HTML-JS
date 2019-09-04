@@ -74,8 +74,6 @@ insertData = (data) =>{
 	cell10.innerHTML = data.pets;
 	cell11.innerHTML = data.eviction;
 
-
-
 }
 
 reset = () => {
