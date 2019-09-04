@@ -1,0 +1,86 @@
+/*.main-container {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	color: black;
+	margin: 10px;
+	padding: 30px;
+}
+
+#page-wrapper {
+	background-color: red;
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+	background-color: orange;
+
+}*/
+
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	width: 100;
+}
+
+.input-container, .list-container {
+	width: 600px;
+	height: 100vh;
+	padding-left: 20px;
+	border: 2px solid gray; 
+	border-radius: 40px;
+	background-color: azure;
+}
+
+.input-container h3, .list-container h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+#state, #zip {
+	width: 15%;
+	margin-left: 5px;
+}
+
+form {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input{
+	border: 2px solid gray;
+}
+
+.submit {
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+	background-color: #006600;
+	color: white;
+	border-radius: 12px;
+	justify-content: center; 
+}
+.submit:hover{
+	 background-color: black;
+  
+}
+
+table {
+	border: 1px solid black;
+}
+
+table thead tr th {
+	border: 2px solid gray;
+	width: 150px;
+	height: 30px;
+	background-color: #74c7db;
+}
+
+table thead tr {
+	border: 1px solid gray;
+	
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rental Application</title>
+	<link rel="stylesheet" href="sample.css">
+</head>
+<body onsubmit="submitForm(event)">
+	<div>
+		<div class="main-container">
+			<div class="input-container">
+				<h3>Rental Application Form</h3>
+				<form>
+					<label for="name">Full Name</label>
+					<input type="text" id="name" placeholder="First name & last name"> <br><br>
+
+					<label for="dob">Date of Birth</label>
+					<input type="Date" id="dob" placeholder="Date"> <br><br>
+
+					<label for="email">Email</label>
+					<input type="text" id="email" placeholder="Email address"> <br><br>
+
+					<label for="currentAddress">Current address</label>
+					<input type="text" id="streetAddressCity" placeholder="Street address & city">
+					<select id="stateSelect" placeholder="Select state">
+						<option value="">Please Choose one</option> 
+						<option value="md">MD</option>
+						<option value="va">VA</option>
+						<option value="dc">DC</option>
+					<input type="text" id="zip" placeholder="zip code"><br><br>
+
+					<label for="numberOfPeople">Number of people</label>
+					<input type="text" id="numberOfPeople" placeholder="# of people moving in"> <br><br>
+
+					<label for="moveInDate">Move in Date?</label>
+					<input type="Date" id="moveInDate" placeholder="Expected move in date."> <br><br>
+
+					<label for="doYouSmoke">Do you/any occupant smoke?</label>
+					<input type="radio" name="smoke" value="Yes"> Yes
+					<input type="radio" name="smoke" value="No"> No
+					<br><br>
+
+					<label for="pets">Do you have any pets?</label>
+					<input type="radio" name="pets" value="Yes">Yes
+					<input type="radio" name="pets" value="No">No <br><br>
+
+					<label for="eviction">Have you ever been evicted?</label>
+					<input type="radio" name="eviction" value="Yes">Yes
+					<input type="radio" name="eviction" value="No">No <br><br>
+
+					<input type="submit" class="submit">
+				</form>
+			</div>
+			<div class="list-container">
+				<h3>Applicant information</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>Full Name</th>
+							<th>DOB</th>
+							<th>Email</th>
+							<th>Current Address</th>
+							<th>State</th>
+							<th>Zip</th>
+							<th>Number Of People</th>
+							<th>Move in Date</th>
+							<th>Smoke Status</th>
+							<th>Pets</th>
+							<th>eviction Status</th>
+						</tr>
+					</thead>
+					<tbody id="registration-table"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script src="sample.js"></script>
+</body>
+</html>
