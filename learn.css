@@ -1,0 +1,87 @@
+body {
+	background-color: #03ecfc;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.form-container {
+	background-color: purple;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 10px 10px;
+	margin-top: 100px;
+}
+
+.form-container h3 {
+	text-align: center;
+}
+
+#btn {
+	margin: auto;
+
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px 10px;
+    margin: 10px 10px 20px 115px;
+    font-size: 15px;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: #d6a844;
+}
+
+#firstName, #lastName, #email, #phone, #password, #confirmPassword {
+	float: right;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+label {
+	font-size: 18px;
+}
+
+.form-container h3, .list-container h3 {
+
+	font-size: 30px;
+}
+.form-container img {
+	float: left;
+	filter: invert(100%);
+	height: 60px;
+	width: 70px;
+}
+
+
+
+
+
+.list-container {
+	margin-top: 100px;
+}
+
+.signedUpList h3 {
+	display: flex;
+	justify-content: center;
+	text-shadow: 5px 5px #d6a844;
+	/*background-color: #b8d6d3;*/
+}
+
+.table-container {
+	display: flex;
+	justify-content: center;
+}
+
+table{
+	border: 1px solid black;
+	background-color: #b8d6d3;
+}
+
+table thead tr th {
+	border: 2px solid black;
+	justify-content: center;
+	text-align: center;
+}
+
