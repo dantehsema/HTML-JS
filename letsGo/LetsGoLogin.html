@@ -1,62 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sign Up</title>
-		<link rel="stylesheet" href="letsGoLogin.css">
+		<title>Log In</title>
 	</head>
 	<body>
 		<div class="mainContainer">
-			<div class="inputContainer">
-				<h3>Sign Up</h3>
+			<div class="formContainer">
+				<h3>Log In</h3>
 				<form onsubmit="submitForm(event)">
-					<label for="name"> Your Name </label>
-					<br>
-					<input type="text" id="firstName" placeholder="  Firstname" minlength="3" required>
-					<br>
-					<input type="text" id="lastName" placeholder="  Lastname" minlength="3" required>
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" placeholder="example@domain.com">
 					<br><br>
-					<label for="contact"> Your Contact Info</label>
-					<br>
-					<input type="email" id="email" placeholder="  email" required>
-					<br>
-					<input type="tel" id="phone" placeholder="  Phone Number">
+					<label for="password">Password:</label><br>
+					<input type="password" id="password" placeholder="password">
 					<br><br>
-					<label for="gender">Your Gender</label>
-					<input type="radio" name="gender" value="Male">Male
-					<input type="radio" name="gender" value="Female">Female
-					<br><br>
-					<label for="password">Password:</label>
-					<br>
-					<input type="password" id="password" placeholder="  At least 6 characters" minlength="6" required>
-					<input type="checkbox" class="showPassword" onclick="showPassword(event)"> Show Password
-					<br><br>
-					<label for="confirmPassword">Confirm Password:</label>
-					<br>
-					<input type="password" id="confirmPassword" placeholder="  At least 6 Characters" minlength="6" required> 
-					<input type="checkbox" class="showPassword" onclick="showConfirmPassword(event)"> Show Password
-					<br><br>
-					<input type="submit" id="submit" value="Create Account">
+					<input type="submit" value="Submit">
 				</form>
 			</div>
 		</div>
-		<div>
-			<table class="tableContainer">
-				<thead class = "tableHead">
-					<h3>Users</h3>
-					<tr>
-						<td>FirstName</td>
-						<td>LastName</td>
-						<td>Email</td>
-						<td>Phone</td>
-						<td>Gender</td>
-						<td>Password</td>
-						<td>ConfirmPassword</td>
-					</tr>
-				</thead>
-				<tbody id="tableBody">	</tbody>
-			</table>
-		</div>
-		<script src="letsGoLogin.js"></script>
 	</body>
 </html>
-<a href=""></a>

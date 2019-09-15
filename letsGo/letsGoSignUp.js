@@ -95,8 +95,10 @@ updateData = (data) => {
 }
 
 deleteField = (element) => {
-let deleteField = element.parentElement.parentElement;
-console.log('this is the field to be deleted:', deleteField);
+	let parent = document.getElementById('tableBody');
+let child = element.parentElement.parentElement;
+console.log('this is the field to be deleted:', child);
+parent.removeChild(child);
 
 }
 
